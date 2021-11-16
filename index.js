@@ -2,12 +2,12 @@ const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
 const app = express();
-const port = process.env.PORT || 4045;
-//const redirect_uri = "http://localhost:4045"; // Localhost
-const redirected_uri = "http://jamming-api.herokuapp.com";
-// const client_uri = "http://localhost:3000" // Localhost
+const port = process.env.PORT || 2020;
+//const redirect_uri = "http://localhost:2020"; // Localhost
+const redirected_uri = "https://jamming-api.herokuapp.com/";
+//const client_uri = "http://localhost:3000" // Localhost
 const client_uri = "https://inspiring-archimedes-571e35.netlify.app";
-const app_id = "513062";
+const app_id = 513062;
 const secret = "9ab350e1a59c5768b769b5f8e3f4e844";
 
 app.use(cors());
