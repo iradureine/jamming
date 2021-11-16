@@ -3,12 +3,12 @@ const axios = require("axios");
 const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 4045;
-// const redirect_uri = "http://localhost:3030"; // Localhost
-const redirect_uri = "https://jammming-deezer.herokuapp.com/";
+//const redirect_uri = "http://localhost:4045"; // Localhost
+const redirected_uri = "http://jamming-api.herokuapp.com";
 // const client_uri = "http://localhost:3000" // Localhost
-//const client_uri = "https://silly-perlman-b4de38.netlify.app";
-const app_id = "510062";
-const secret = "3f0f5f23e69a31d45b5223eea9a6a7a4";
+const client_uri = "https://inspiring-archimedes-571e35.netlify.app";
+const app_id = "513062";
+const secret = "9ab350e1a59c5768b769b5f8e3f4e844";
 
 app.use(cors());
 
